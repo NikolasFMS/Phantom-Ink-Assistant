@@ -41,14 +41,15 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    color: #555;
+    background-color: #DAAF56;
 }
 
 .language-button {
     z-index: 999;
     max-width: 5px;
     min-width: 2px;
-    padding: 0px 20px;
+    padding: 1.5vh 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +62,7 @@ button:hover {
 
 Header, footer {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     background-color: #222;
     text-align: center;
@@ -76,17 +78,13 @@ Header, footer {
 
 h2 {
     font-size: 2.5vh;
-    font-weight: 500;
     color: #ccc;
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    text-decoration-line: none;
     font-family: 'Poppins', sans-serif, Arial, Verdana;
     display: inline-block;
     line-height: 24px;
     position: relative;
-    margin-top: 18px;
     text-decoration: none;    
 }
 
@@ -95,14 +93,30 @@ h2 {
     cursor: pointer;
 }
 
-p {
+p { 
     color: #ccc;
     font-size: 1.7vh;
     line-height: 170%;
-    padding: 0;
+    padding: 0px 2px;
+    border-radius: 3px;
     font-weight: normal;
     text-decoration-line: none;
     font-family: 'Poppins', sans-serif, Arial, Verdana;
+}
+
+p:hover {
+    color: #555;
+    background-color: #DAAF56;
+}
+
+li {
+    border-radius: 3px;
+    padding: 4px 5px;
+}
+
+li:hover {
+    color: #555;
+    background-color: #DAAF56;
 }
 
 .bot {
@@ -124,10 +138,6 @@ p {
     min-width: 250px;
     width: 60%;
     margin-top: 15px;
-}
-
-#team2-questions-list{
-
 }
 
 #preloader_malc {
